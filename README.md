@@ -41,7 +41,7 @@ npm run dev
 ##### a.1. isi file env
 
 ```bash
-PORT=3000
+PORT=5000
 MONGO_URI=mongodb://host:port/namadb
 ```
 
@@ -50,7 +50,7 @@ MONGO_URI=mongodb://host:port/namadb
 ```bash
 cd frontend
 npm install
-npm start
+npm run start
 ```
 
 # PERTANYAAN TAMBAHAN
