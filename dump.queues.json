@@ -1,0 +1,11 @@
+[
+  {
+    "nomor_urut": 1,
+    "timestamp": {
+      "$date": "2025-07-10T13:20:11.672Z"
+    },
+    "status": "pending",
+    "lokasi": "default",
+    "__v": 0
+  }
+]
