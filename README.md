@@ -77,3 +77,8 @@ Jika data sudah mencapai jutaan record, beberapa optimasi yang dapat dilakukan:
 Gunakan indexing pada field sering diquery (misal: status, timestamp)
 Gunakan pagination (skip dan limit) saat ambil data
 Backup dan dump database secara berkala
+
+# Tampilan
+![Tampilan Antrian](./ambil-antrian.png)
+![Tampilan Antrian](./admin-antrian.png)
+![Tampilan Antrian](./print.png)
