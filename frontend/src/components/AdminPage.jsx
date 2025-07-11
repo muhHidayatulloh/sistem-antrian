@@ -1,4 +1,3 @@
-// frontend/src/components/AdminPage.jsx
 import React, { useEffect, useState } from "react";
 import api from "../services/api";
 import socket from "../services/socket";
@@ -49,7 +48,7 @@ const AdminPage = () => {
     return () => {
       socket.off("update-antrian");
     };
-  }, [currentPage]);
+  }, [currentPage]); // render ketika currentPage berubah
 
   return (
     <div className="container">

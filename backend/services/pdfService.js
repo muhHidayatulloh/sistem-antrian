@@ -22,7 +22,7 @@ const generatePDF = async (nomorUrut, timestamp) => {
   };
 
   const options = {
-    format: 'A6', // ✅ A6 lebih kecil dari A4, cocok untuk struk/nota
+    format: 'A6', // ukuran untuk struk/nota (maybe)
     orientation: 'portrait',
     border: '5mm',
   };

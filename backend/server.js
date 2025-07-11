@@ -42,11 +42,11 @@ app.use('/', (req, res) => {
 
 
 
-// 8. Setup MongoDB connection
+// Setup MongoDB connection
 const connectDB = require('./config/db');
 connectDB();
 
-// 9. Socket.IO listener untuk update data
+// Socket.IO listener untuk update data
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
 });
