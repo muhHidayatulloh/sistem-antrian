@@ -41,7 +41,7 @@ npm run dev
 ##### a.1. isi file env
 
 ```bash
-PORT=3000
+PORT=5000
 MONGO_URI=mongodb://host:port/namadb
 ```
 
@@ -50,7 +50,7 @@ MONGO_URI=mongodb://host:port/namadb
 ```bash
 cd frontend
 npm install
-npm start
+npm run start
 ```
 
 # PERTANYAAN TAMBAHAN
@@ -77,3 +77,8 @@ Jika data sudah mencapai jutaan record, beberapa optimasi yang dapat dilakukan:
 Gunakan indexing pada field sering diquery (misal: status, timestamp)
 Gunakan pagination (skip dan limit) saat ambil data
 Backup dan dump database secara berkala
+
+# Tampilan
+![Tampilan Antrian](./ambil-antrian.png)
+![Tampilan Antrian](./admin-antrian.png)
+![Tampilan Antrian](./print.png)
